@@ -1,6 +1,6 @@
 # Automation Engineering Assignment
 
-###Overview
+### Overview
 
 This project is an end-to-end Selenium automation framework developed using Java, Selenium WebDriver, TestNG, and the Page Object Model (POM) design pattern. The framework automates Amazon product search and add-to-cart scenarios and supports execution in both local environments and LambdaTest cloud infrastructure.
 

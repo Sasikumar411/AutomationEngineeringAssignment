@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="AmazonSuite" parallel="tests" thread-count="2">
+<suite name="AmazonSuite" parallel="classes" thread-count="2">
 
  <parameter name="os" value="macOS"/>
  <parameter name="browser" value="Chrome"/>
@@ -13,17 +13,10 @@
       
     </listeners>
  
-	<test name="iPhone test">
+	<test name="Amazon tests">
 
 		<classes>
 			<class name="tests.AmazonIphoneTest" />
-		</classes>
-
-	</test>
-	
-	<test name="Galaxy test">
-
-		<classes>
 			<class name="tests.AmazonGalaxyTest" />
 		</classes>
 

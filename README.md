@@ -71,7 +71,7 @@ Set the following environment variables:
 Execute the tests:
 
 ```bash
-- mvn clean test -Dexecution=cloud
+- mvn clean test -DexecutionType=cloud
 ```
 **Reports**
 
